@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans;
+
+}
+.site-header{
+    margin-left: 100px;
+    
+}
+.site-nav{
+    display: flex;
+    font-size:15px;
+    font-weight: 300;
+}
+.site-logo{
+    padding-top: 12px;
+    
+}
+.logo-img{
+    width: 58.11px;
+}
+.nav-list{
+    display: flex;
+    padding-left: 500px;
+}
+.nav-list-item{
+   list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.nav-contact{
+  
+    background-color:#00BAFC;
+    border-radius: 4px ;
+    height: 27px;
+    margin-top: 8px;
+    padding-top: 6px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.contact-link{
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    
+}
+main{
+  
+    margin-left: 100px;
+   
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+    margin-bottom: 80px;
+    padding-right: 105px;
+   
+    
+}
+.intro-text{
+    width: 50%;
+    
+}
+.youtube-img{
+ width: 50%;
+ margin-left: 154px;
+ padding-left: 100px;
+}
+.youtube-video{
+    position: relative;
+    border-radius: 9px;
+}
+.youtube-play{
+    position: absolute;
+    left: 940px;
+    top: 230px;
+  
+}
+
+
+.xizmat-link{
+    text-decoration: none;
+    background-color: #00BAFC;
+    position: absolute;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.services{
+    margin-right: 120px;
+}
+.service-heading{
+    text-align: center;
+}
+.sevice-types{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3 , 320px);
+    gap: 48px;
+    grid-auto-flow: dense;
+}
+.secondline{
+    padding-left: 170px;
+}
+
+ 
